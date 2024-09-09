@@ -7,7 +7,7 @@ This PowerShell script is designed to remove permissions for a specified user fr
 
 - **Remove Permissions for One User**: The script only removes permissions for the user specified by their email.
 - **Report-Only Mode**: When set to `reportOnly = $true`, the script will generate a CSV report of what permissions **would** be removed without making any actual changes.
-- **Report-Only Mode**: When set to `reportOnly = $false`, the script will commits changes and removes permissions for the specified user
+- **Commit Mode**: When set to `reportOnly = $false`, the script will commits changes and removes permissions for the specified user
 - **Error Logging**: Any sites that fail during the process are logged in a separate CSV file with the reason for failure.
 - **Supports Recursive Folder Scanning**: The script will search for unique permissions across all folders within the `Shared Documents` library.
   
