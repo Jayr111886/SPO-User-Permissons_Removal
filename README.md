@@ -23,5 +23,3 @@ This PowerShell script is designed to remove permissions for a specified user fr
 - Run in path
   ```powershell
   .\SharePointUserPermissionRemoval.ps1
-
-
