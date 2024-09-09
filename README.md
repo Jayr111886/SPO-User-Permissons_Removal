@@ -18,3 +18,10 @@ This PowerShell script is designed to remove permissions for a specified user fr
   ```powershell
   Install-Module -Name PnP.PowerShell
 
+## Running the Script
+
+- Run in path
+  ```powershell
+  .\SharePointUserPermissionRemoval.ps1
+
+
