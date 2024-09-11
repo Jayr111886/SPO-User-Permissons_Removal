@@ -1,7 +1,7 @@
 # Define the user to remove
 $userEmail = "user@domain.com"  # Set the user email whose permissions will be removed
 $libraryName = "Shared Documents"  # The library where permissions will be removed
-$reportOnly = $true  # Set to true if you want to generate a report without making changes
+$reportOnly = $true  # Set to $true for report only with NO changes; set to $false to commit and make changes
 $outputCSV = "./Permission_Removal_Report.csv"  # Path to store the report of actions
 $errorCSV = "./Permission_Failure_Report.csv"  # Path to store the report of errors
 
